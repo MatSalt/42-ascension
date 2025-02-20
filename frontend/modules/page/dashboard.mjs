@@ -367,6 +367,8 @@ export class DashBoardPage {
         },
       },
     });
+
+	console.log("new");
     new Chart(document.getElementById("bar-chart-horizontal"), {
       type: "horizontalBar",
       data: {
